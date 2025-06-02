@@ -3,18 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мои песни</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>ПЕСНИ от АВТОРА</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .song {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        audio {
+            width: 100%;
+            margin: 10px 0;
+        }
+        .contact {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>🎵 Песни от Автора</h1>
-        <p>Слушайте и покупайте мои песни</p>
-    </header>
+    <h1>ПЕСНИ от АВТОРА</h1>
+    <h2>Слушайте и покупайте мои песни</h2>
 
-    <main>
-        <div class="song-list" id="songList">
-            <!-- Песни будут загружаться через JavaScript -->
-        </div>
-    </main>
+    <div class="song">
+        <h3>Название песни 1</h3>
+        <audio controls>
+            <source src="audio/song1.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает аудио.
+        </audio>
+        <p>Цена: договорная</p>
+    </div>
 
+    <div class="song">
+        <h3>Название песни 2</h3>
+        <audio controls>
+            <source src="audio/song2.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает аудио.
+        </audio>
+        <p>Цена: договорная</p>
+    </div>
+
+    <!-- Добавляйте новые песни по такому же шаблону -->
+
+    <div class="contact">
+        <p>Цены договорные. Тел. <a href="tel:+79397792368">+7 939 779 23 68</a> (Москва +7 часов)</p>
+    </div>
+</body>
+</html>
