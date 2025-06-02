@@ -1,3 +1,6 @@
+    <script src="script.js"></script>
+</body>
+</html>
 const songs = [
     {
         title: "Песня 1",
