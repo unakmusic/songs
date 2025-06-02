@@ -3,16 +3,14 @@
 </html>
 const songs = [
     {
-        title: "Песня 1",
-        audio: "songs/song1.mp3",
+        title: "Делай красиво",
+        audio: "songs/Делай красиво.mp3",
         lyrics: "Текст песни 1...", // или загружать из .txt
-        price: "100 ₽"
-    },
+        },
     {
-        title: "Песня 2",
-        audio: "songs/song2.mp3",
+        title: "Казак",
+        audio: "songs/Казак.mp3",
         lyrics: "Текст песни 2...",
-        price: "150 ₽"
     }
     // Добавляйте новые песни здесь
 ];
